@@ -1,3 +1,12 @@
+# Run the server
+
+```sh
+docker compose up --build
+```
+
+This command will build the Docker image and start the Flask application, making it accessible on `http://localhost:5000`.
+Then use `curl` or Postman to test the API endpoints.
+
 # Receipt Processor
 
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
